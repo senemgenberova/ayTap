@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Season</title>
+</head>
+<body>
+	<script>
+		function ayTap(x) {
+			if(x=="yaz"){
+				return "Aylar: 3,4,5";
+			}
+
+			else if(x=="yay"){
+				return "Aylar: 6,7,8";
+			}
+
+			else if(x=="payız"){
+				return "Aylar: 9,10,11";
+			}
+
+			else if(x=="qış"){
+				return "Aylar: 12,1,2";
+			}
+
+			else{
+				return false;
+			}
+		}
+
+		var fesil = ayTap("qış");
+		if(fesil){
+			console.log(fesil);
+		}
+		else{
+			alert("Bele bir fesil movcud deyil");
+		}
+	</script>
+</body>
+</html>
